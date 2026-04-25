@@ -6,10 +6,53 @@ include 'includes/header.php';
 
 <section class="py-5 bg-light">
     <div class="container py-5">
+        <!-- New: Authority Masterclasses (Free) -->
+        <div class="row g-4 mb-5 pb-5 border-bottom">
+            <div class="col-lg-4" data-aos="fade-up">
+                <div class="card border-0 shadow-lg rounded-5 overflow-hidden bg-primary text-white p-4 h-100">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <div class="bg-white text-primary p-3 rounded-circle"><i class="fas fa-utensils fa-2x"></i></div>
+                        <div>
+                            <h2 class="h5 fw-bold mb-0">The Diet Plan Masterclass</h2>
+                            <small class="opacity-75">3,000 Word Authority Guide</small>
+                        </div>
+                    </div>
+                    <p class="small mb-5 opacity-90">A specialized nutritional analysis for the Indian lifestyle, bridging clinical science with local dietary patterns.</p>
+                    <a href="<?php echo SITE_URL; ?>diet-plans" class="btn btn-light btn-sm rounded-pill px-4 py-2 fw-bold text-primary shadow-xl mt-auto">Access Guide</a>
+                </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card border-0 shadow-lg rounded-5 overflow-hidden bg-success text-white p-4 h-100">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <div class="bg-white text-success p-3 rounded-circle"><i class="fas fa-dumbbell fa-2x"></i></div>
+                        <div>
+                            <h2 class="h5 fw-bold mb-0">Home Workout Pro</h2>
+                            <small class="opacity-75">Functional Strength Protocol</small>
+                        </div>
+                    </div>
+                    <p class="small mb-5 opacity-90">The definitive guide to building muscle and strength specifically tailored for the urban Indian environment.</p>
+                    <a href="<?php echo SITE_URL; ?>topics/home-workouts" class="btn btn-light btn-sm rounded-pill px-4 py-2 fw-bold text-success shadow-xl mt-auto">Access Blueprint</a>
+                </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card border-0 shadow-lg rounded-5 overflow-hidden text-white p-4 h-100" style="background: #0d9488 !important;">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <div class="bg-white p-3 rounded-circle" style="color: #0d9488 !important;"><i class="fas fa-brain fa-2x"></i></div>
+                        <div>
+                            <h2 class="h5 fw-bold mb-0">Mental Wellness Elite</h2>
+                            <small class="opacity-75">Cognitive Excellence</small>
+                        </div>
+                    </div>
+                    <p class="small mb-5 opacity-90">A masterclass in neuroplasticity and stress regulation for the modern Indian urbanite.</p>
+                    <a href="<?php echo SITE_URL; ?>topics/mental-wellness" class="btn btn-light btn-sm rounded-pill px-4 py-2 fw-bold shadow-xl mt-auto" style="color: #0d9488 !important;">Access Protocol</a>
+                </div>
+            </div>
+        </div>
+
         <div class="text-center mb-5" data-aos="fade-up">
-            <h6 class="text-primary fw-bold text-uppercase mb-2">Transformative Learning</h6>
+            <h6 class="text-primary fw-bold text-uppercase mb-2">Transformative Challenges</h6>
             <h1 class="display-4 fw-bold">Online <span class="text-primary">Wellness Programs</span></h1>
-            <p class="lead text-muted mx-auto" style="max-width: 700px;">Expert-led digital courses designed to help you achieve your health goals from the comfort of your home.</p>
+            <p class="lead text-muted mx-auto" style="max-width: 700px;">Structured 21-day and 12-week challenges designed for deep metabolic transformation.</p>
         </div>
 
         <div class="row g-4">

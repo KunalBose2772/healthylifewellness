@@ -18,6 +18,20 @@ $t = $texts[$lang];
     <title><?php echo isset($page_title) ? $page_title . ' | HealthyLifeWellness.in' : 'HealthyLifeWellness.in - Your Guide to Health & Wellness'; ?></title>
     <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : 'Targeting English and Hindi speaking Indians for practical health, yoga, and diet tips.'; ?>">
     
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo SITE_URL . (isset($slug) ? 'post/' . $slug : ''); ?>">
+    <meta property="og:title" content="<?php echo isset($page_title) ? $page_title : 'HealthyLifeWellness.in'; ?>">
+    <meta property="og:description" content="<?php echo isset($meta_description) ? $meta_description : 'Expert-led wellness and metabolic health guides for the Indian lifestyle.'; ?>">
+    <meta property="og:image" content="<?php echo isset($post['image']) ? SITE_URL . $post['image'] : SITE_URL . 'assets/img/hero.png'; ?>">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?php echo SITE_URL . (isset($slug) ? 'post/' . $slug : ''); ?>">
+    <meta property="twitter:title" content="<?php echo isset($page_title) ? $page_title : 'HealthyLifeWellness.in'; ?>">
+    <meta property="twitter:description" content="<?php echo isset($meta_description) ? $meta_description : 'Expert-led wellness and metabolic health guides for the Indian lifestyle.'; ?>">
+    <meta property="twitter:image" content="<?php echo isset($post['image']) ? SITE_URL . $post['image'] : SITE_URL . 'assets/img/hero.png'; ?>">
+    
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="<?php echo SITE_URL; ?>assets/img/favicon.png?v=<?php echo time(); ?>">
     <link rel="apple-touch-icon" href="<?php echo SITE_URL; ?>assets/img/favicon.png">
@@ -69,6 +83,16 @@ $t = $texts[$lang];
                         ?>
                         <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>category.php?slug=<?php echo $nc['slug']; ?>"><?php echo $nc['name']; ?></a></li>
                         <?php endforeach; ?>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="masterclassDropdown" role="button" data-bs-toggle="dropdown">
+                        Masterclasses <i class="fas fa-chevron-down dropdown-icon"></i>
+                    </a>
+                    <ul class="dropdown-menu border-0 shadow">
+                        <li><a class="dropdown-item fw-bold" href="<?php echo SITE_URL; ?>diet-plans"><i class="fas fa-utensils text-primary me-2"></i> Indian Diet Plans</a></li>
+                        <li><a class="dropdown-item fw-bold" href="<?php echo SITE_URL; ?>topics/home-workouts"><i class="fas fa-dumbbell text-success me-2"></i> Elite Home Workouts</a></li>
+                        <li><a class="dropdown-item fw-bold" href="<?php echo SITE_URL; ?>topics/mental-wellness"><i class="fas fa-brain text-info me-2" style="color: #0d9488 !important;"></i> Mental Wellness</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

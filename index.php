@@ -82,12 +82,92 @@ $h = $hero_text[$lang];
     </div>
 </section>
 
-<!-- Cluster Sections -->
-<section id="clusters" class="py-5">
+<!-- Authority Marquee (Scientific Trust) -->
+<div class="authority-marquee">
+    <div class="marquee-content">
+        <div class="marquee-item"><img src="assets/img/lancet.svg" alt="The Lancet Medical Journal Official Logo"></div>
+        <div class="marquee-item"><img src="assets/img/WHO.svg" alt="World Health Organization (WHO) Official Logo"></div>
+        <div class="marquee-item"><img src="assets/img/PUBMED.png" alt="PubMed NIH Research Database Logo"></div>
+        <div class="marquee-item"><img src="assets/img/ICMR.svg" alt="Indian Council of Medical Research (ICMR) Logo"></div>
+        <div class="marquee-item"><img src="assets/img/NFHS.jpg" alt="National Family Health Survey (NFHS) India Logo"></div>
+        <div class="marquee-item"><img src="assets/img/HHP.svg" alt="Harvard Health Publishing Logo"></div>
+        
+        <!-- Duplicate for seamless loop -->
+        <div class="marquee-item"><img src="assets/img/lancet.svg" alt="The Lancet Medical Journal Official Logo"></div>
+        <div class="marquee-item"><img src="assets/img/WHO.svg" alt="World Health Organization (WHO) Official Logo"></div>
+        <div class="marquee-item"><img src="assets/img/PUBMED.png" alt="PubMed NIH Research Database Logo"></div>
+        <div class="marquee-item"><img src="assets/img/ICMR.svg" alt="Indian Council of Medical Research (ICMR) Logo"></div>
+        <div class="marquee-item"><img src="assets/img/NFHS.jpg" alt="National Family Health Survey (NFHS) India Logo"></div>
+        <div class="marquee-item"><img src="assets/img/HHP.svg" alt="Harvard Health Publishing Logo"></div>
+    </div>
+</div>
+
+<!-- Scientific Trust Benchmarks (Internal & External Linking) -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6" data-aos="fade-right">
+                <h2 class="display-6 fw-bold mb-4">India's First <span class="text-primary">Research-Driven</span> Wellness Hub</h2>
+                <p class="text-muted mb-4">HealthyLifeWellness.in isn't just another health blog. We are building a high-authority ecosystem that bridges the gap between complex clinical data and practical daily living for the Indian context. Every guide we publish is cross-referenced with the <a href="https://main.icmr.nic.in/" target="_blank" rel="nofollow" class="text-primary fw-bold" title="ICMR Official Site">Indian Council of Medical Research (ICMR)</a>, the <a href="https://www.who.int/india" target="_blank" rel="nofollow" class="text-primary fw-bold" title="WHO India">World Health Organization (WHO)</a>, and peer-reviewed journals like <a href="https://www.thelancet.com/" target="_blank" rel="nofollow" class="text-primary fw-bold">The Lancet</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="nofollow" class="text-primary fw-bold">PubMed</a>.</p>
+                <div class="row g-4 mt-2">
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-start gap-3">
+                            <div class="bg-primary-light p-2 rounded-circle"><i class="fas fa-microscope text-primary"></i></div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Evidence-Based</h6>
+                                <p class="small text-muted mb-0">Zero fads. Only science-backed nutrition and fitness advice.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-start gap-3">
+                            <div class="bg-success-light p-2 rounded-circle"><i class="fas fa-user-check text-success"></i></div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Expert Verified</h6>
+                                <p class="small text-muted mb-0">Content reviewed by clinical nutritionists and doctors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5 d-flex align-items-center gap-4">
+                    <a href="topics/diet-plans" class="btn btn-primary rounded-pill px-4">View Diet Masterclass</a>
+                    <a href="programs" class="btn btn-outline-premium rounded-pill px-4">Browse Scientific Programs <i class="fas fa-chevron-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="p-5 rounded-5 bg-light border border-2 border-dashed border-primary position-relative">
+                    <h5 class="fw-bold mb-4">Indian Health Metrics (2026)</h5>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="small fw-bold">Urban Metabolic Issues</span>
+                            <span class="small text-primary fw-bold">68% Prevalence</span>
+                        </div>
+                        <div class="progress rounded-pill" style="height: 8px;">
+                            <div class="progress-bar" role="progressbar" style="width: 68%;"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="small fw-bold">Protein Gap in Daily Diet</span>
+                            <span class="small text-danger fw-bold">73% Deficit</span>
+                        </div>
+                        <div class="progress rounded-pill" style="height: 8px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 73%;"></div>
+                        </div>
+                    </div>
+                    <p class="small text-muted italic mb-0 mt-4">*Data sourced from <a href="http://rchiips.org/nfhs/index.shtml" target="_blank" rel="nofollow">NFHS-5 India</a> and internal survey benchmarks. We use these insights to design our <a href="topics/weight-loss" class="text-primary fw-bold">Weight Loss Blueprints</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Cluster Sections (Light Background) -->
+<section id="clusters" class="py-5 bg-light">
     <div class="container py-5">
         <div class="text-center mb-5" data-aos="fade-up">
-            <h2 class="display-5 mb-3">Health <span class="text-primary">Clusters</span></h2>
-            <p class="text-muted mx-auto" style="max-width: 600px;">Dive deep into our curated collections of expert-led content designed to help you achieve specific health goals.</p>
+            <h2 class="display-5 mb-3">Health <span class="text-primary">Masterclasses</span></h2>
+            <p class="text-muted mx-auto" style="max-width: 600px;">Expert-led diet plans, health tips, and wellness blueprints designed for your transformation.</p>
         </div>
 
         <div class="row g-4">
@@ -122,8 +202,8 @@ $h = $hero_text[$lang];
     </div>
 </section>
 
-<!-- Featured Articles -->
-<section class="bg-light py-5">
+<!-- Featured Articles (White Background) -->
+<section class="bg-white py-5">
     <div class="container py-5">
         <div class="d-flex justify-content-between align-items-end mb-5" data-aos="fade-up">
             <div>
@@ -140,53 +220,34 @@ $h = $hero_text[$lang];
                 $posts = $stmt->fetchAll();
                 
                 if (count($posts) > 0):
-                    $main_post = $posts[0];
+                    foreach($posts as $p):
+                        // Estimate read time
+                        $word_count = str_word_count(strip_tags($p['content']));
+                        $read_time = ceil($word_count / 200);
             ?>
-            <div class="col-lg-8" data-aos="fade-up">
-                <!-- Large Feature -->
-                <div class="card border-0 rounded-4 overflow-hidden shadow-sm h-100">
-                    <div class="row g-0 h-100">
-                        <div class="col-md-6">
-                            <img src="<?php echo !empty($main_post['image']) ? $main_post['image'] : 'assets/img/weight-loss.png'; ?>" class="img-fluid h-100 w-100" style="object-fit: cover;" alt="<?php echo $main_post['title']; ?>">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                <div class="card h-100 border-0 shadow-sm rounded-5 overflow-hidden hover-lift bg-white">
+                    <div class="position-relative">
+                        <img src="<?php echo $p['image']; ?>" class="card-img-top" alt="<?php echo $p['title']; ?>" style="height: 240px; object-fit: cover;">
+                        <span class="badge bg-primary rounded-pill position-absolute top-0 start-0 m-3 px-3 py-2"><?php echo $p['category_name']; ?></span>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3 small text-muted">
+                            <span><i class="far fa-clock me-1"></i> <?php echo $read_time; ?> min read</span>
+                            <span class="mx-2">•</span>
+                            <span><?php echo date('M j, Y', strtotime($p['created_at'])); ?></span>
                         </div>
-                        <div class="col-md-6 d-flex align-items-center">
-                            <div class="card-body p-4 p-lg-5">
-                                <div class="mb-3">
-                                    <span class="badge bg-primary-light text-primary rounded-pill px-3"><?php echo $main_post['category_name']; ?></span>
-                                    <span class="text-muted ms-2"><i class="far fa-clock"></i> 10 min read</span>
-                                </div>
-                                <h3 class="mb-3"><?php echo $main_post['title']; ?></h3>
-                                <p class="text-muted mb-4"><?php echo substr(strip_tags($main_post['content']), 0, 150) . '...'; ?></p>
-                                <div class="d-flex align-items-center mb-4">
-                                    <img src="https://i.pravatar.cc/150?u=4" class="rounded-circle me-3" width="40" alt="Author">
-                                    <div>
-                                        <h6 class="mb-0">Expert Contributor</h6>
-                                        <small class="text-muted">Wellness Specialist</small>
-                                    </div>
-                                </div>
-                                <a href="post.php?slug=<?php echo $main_post['slug']; ?>" class="btn btn-primary rounded-pill px-4">Read Article</a>
-                            </div>
+                        <h4 class="h5 fw-bold mb-3"><a href="post?slug=<?php echo $p['slug']; ?>" class="text-dark text-decoration-none"><?php echo $p['title']; ?></a></h4>
+                        <p class="text-muted small mb-4"><?php echo substr($p['meta_description'], 0, 100); ?>...</p>
+                        <div class="d-flex align-items-center mt-auto pt-3 border-top">
+                            <img src="https://i.pravatar.cc/150?u=author" class="rounded-circle me-2" width="30" height="30" alt="Author">
+                            <span class="small fw-bold">Expert Contributor</span>
+                            <a href="post?slug=<?php echo $p['slug']; ?>" class="ms-auto text-primary fw-bold text-decoration-none small">Read More <i class="fas fa-chevron-right ms-1"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="row g-4">
-                    <?php for($i=1; $i<count($posts); $i++): ?>
-                    <div class="col-12" data-aos="fade-up" data-aos-delay="<?php echo $i*100; ?>">
-                        <div class="post-card">
-                            <div class="img-container">
-                                <img src="<?php echo !empty($posts[$i]['image']) ? $posts[$i]['image'] : 'assets/img/fitness.png'; ?>" alt="<?php echo $posts[$i]['title']; ?>">
-                            </div>
-                            <h4 class="post-title"><?php echo $posts[$i]['title']; ?></h4>
-                            <p class="text-muted small"><?php echo substr(strip_tags($posts[$i]['content']), 0, 80) . '...'; ?></p>
-                            <a href="post.php?slug=<?php echo $posts[$i]['slug']; ?>" class="stretched-link"></a>
-                        </div>
-                    </div>
-                    <?php endfor; ?>
-                </div>
-            </div>
-            <?php else: ?>
+            <?php endforeach; else: ?>
                 <div class="col-12 text-center py-5">
                     <p class="text-muted">Stay tuned! Our expert-led articles are coming soon.</p>
                 </div>
@@ -246,8 +307,8 @@ $h = $hero_text[$lang];
     </div>
 </section>
 
-<!-- Hindi Section Teaser -->
-<section class="py-5">
+<!-- Hindi Section Teaser (Light Background) -->
+<section class="py-5 bg-light">
     <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-md-6" data-aos="fade-right">
@@ -267,45 +328,120 @@ $h = $hero_text[$lang];
     </div>
 </section>
 
-<!-- Local SEO Section -->
-<section class="py-5 bg-white">
-    <div class="container">
-        <div class="row align-items-center mb-5">
-            <div class="col-md-6">
-                <h2 class="display-6 fw-bold mb-0">Local Wellness Guides</h2>
-                <p class="text-muted mt-2">Find the best vetted professionals in your city.</p>
+<!-- Homepage FAQ Section (Essential for Snippets) -->
+<section class="py-5 bg-white faq-homepage">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-5" data-aos="fade-right">
+                <h6 class="text-primary fw-bold text-uppercase mb-3">Common Questions</h6>
+                <h2 class="display-6 fw-bold mb-4">You have questions. We have <span class="text-primary">expert</span> answers.</h2>
+                <p class="text-muted mb-5">Our team of clinical nutritionists and certified trainers have compiled answers to the most common wellness queries in India.</p>
+                <div class="p-4 bg-light rounded-4 shadow-sm border">
+                    <h6 class="fw-bold mb-3">Still need help?</h6>
+                    <p class="small text-muted">Can't find what you're looking for? Consult our experts directly for a personalized plan.</p>
+                    <a href="find-services" class="btn btn-primary rounded-pill px-4 btn-sm">Consult a Pro</a>
+                </div>
             </div>
-            <div class="col-md-6 text-md-end">
-                <a href="find-services.php" class="btn btn-outline-primary rounded-pill px-4">Browse All Cities</a>
+            <div class="col-lg-7 mt-5 mt-lg-0" data-aos="fade-left">
+                <div class="accordion accordion-flush" id="homeFaq">
+                    <div class="accordion-item shadow-sm rounded-4 overflow-hidden mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button fw-bold py-3 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#hq1">
+                                Are the diet plans on HealthyLifeWellness science-backed?
+                            </button>
+                        </h2>
+                        <div id="hq1" class="accordion-collapse collapse show" data-bs-parent="#homeFaq">
+                            <div class="accordion-body p-4 text-muted">
+                                Yes. Every guide is compiled using clinical data from authorities like **The Lancet**, **WHO**, and **NFHS India**. Unlike generic blogs, we provide co-citations to medical journals and our content is reviewed by clinical experts to ensure it adheres to safety and metabolic efficacy standards.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item shadow-sm rounded-4 overflow-hidden mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold py-3 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#hq2">
+                                How do I find a vetted gym or dietitian near me?
+                            </button>
+                        </h2>
+                        <div id="hq2" class="accordion-collapse collapse" data-bs-parent="#homeFaq">
+                            <div class="accordion-body p-4 text-muted">
+                                Our <a href="find-services" class="text-primary fw-bold">Find Services</a> portal uses a 5-point vetting process. We check certifications, facility hygiene, user success rates, and local reputation in cities like Patna, Delhi, and Mumbai before any professional is listed on our platform.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item shadow-sm rounded-4 overflow-hidden mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold py-3 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#hq3">
+                                Why is an Indian-specific diet plan important?
+                            </button>
+                        </h2>
+                        <div id="hq3" class="accordion-collapse collapse" data-bs-parent="#homeFaq">
+                            <div class="accordion-body p-4 text-muted">
+                                Indian genetic and metabolic patterns are unique. We have a higher prevalence of **Abdominal Obesity** and **Vitamin D deficiency** despite the sun. Our <a href="topics/diet-plans" class="text-primary fw-bold">Masterclass Guides</a> focus on local ingredients like Millets, pulses, and traditional spices that work with your biology.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item shadow-sm rounded-4 overflow-hidden mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold py-3 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#hq4">
+                                Do you offer home-based workout solutions?
+                            </button>
+                        </h2>
+                        <div id="hq4" class="accordion-collapse collapse" data-bs-parent="#homeFaq">
+                            <div class="accordion-body p-4 text-muted">
+                                Yes. Our <a href="topics/home-workouts" class="text-primary fw-bold">Home Workout Blueprint</a> is designed for people with minimal equipment. We focus on functional movements and high-intensity protocols that can be performed in small Indian apartment spaces.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Regional Authority Index (The "Elite" Sitemap for AdSense & Geographic Authority) -->
+<section class="py-5 bg-light border-top">
+    <div class="container">
+        <div class="row mb-5" data-aos="fade-up">
+            <div class="col-lg-8">
+                <h2 class="h4 fw-bold text-dark mb-3">Regional Clinical Wellness Index</h2>
+                <p class="text-muted small">We are mapping the metabolic landscape of India by establishing localized health pillars. Each hub provides specific clinical nutrition guidelines and vetted professional networks tailored to the regional lifestyle of each city.</p>
             </div>
         </div>
         
-        <div class="row g-4">
+        <div class="row g-3" data-aos="fade-up">
             <?php
-            $services_list = ['gym', 'dietitian', 'yoga'];
-            $cities_list = ['patna', 'delhi', 'mumbai', 'bangalore'];
+            $cities = [
+                // Major Metros & Capitals
+                'Mumbai', 'Delhi', 'Bangalore', 'Hyderabad', 'Ahmedabad', 'Chennai', 'Kolkata', 'Surat', 'Pune', 'Jaipur',
+                'Lucknow', 'Kanpur', 'Nagpur', 'Indore', 'Thane', 'Bhopal', 'Visakhapatnam', 'Pimpri-Chinchwad', 'Patna', 'Vadodara',
+                'Ghaziabad', 'Ludhiana', 'Agra', 'Nashik', 'Faridabad', 'Meerut', 'Rajkot', 'Kalyan-Dombivli', 'Vasai-Virar', 'Varanasi',
+                'Srinagar', 'Aurangabad', 'Dhanbad', 'Amritsar', 'Navi Mumbai', 'Allahabad', 'Ranchi', 'Howrah', 'Jabalpur', 'Gwalior',
+                // State Capitals & UTs
+                'Vijayawada', 'Itanagar', 'Dispur', 'Raipur', 'Panaji', 'Gandhinagar', 'Chandigarh', 'Shimla', 'Thiruvananthapuram', 
+                'Imphal', 'Shillong', 'Aizawl', 'Kohima', 'Bhubaneswar', 'Gangtok', 'Agartala', 'Dehradun', 'Port Blair', 'Daman', 
+                'Leh', 'Kavaratti', 'Puducherry', 'Noida', 'Gurgaon', 'Mysore', 'Coimbatore', 'Madurai', 'Kochi', 'Udaipur'
+            ];
             
-            foreach($services_list as $s_slug):
-                // Fetch service name
-                $s_name = ucfirst(str_replace('-', ' ', $s_slug));
+            // Sort alphabetically for a better directory feel
+            sort($cities);
+            
+            // Split cities into 6 columns
+            $columns = array_chunk($cities, ceil(count($cities) / 6));
+            
+            foreach($columns as $col_cities):
             ?>
-            <div class="col-lg-4">
-                <div class="admin-card p-4 h-100">
-                    <h5 class="fw-bold mb-4 d-flex align-items-center">
-                        <i class="fas fa-map-marker-alt me-2 text-primary"></i> 
-                        Best <?php echo $s_name; ?>s in...
-                    </h5>
-                    <ul class="list-unstyled mb-0">
-                        <?php foreach($cities_list as $c_slug): ?>
-                        <li class="mb-3">
-                            <a href="service-city.php?service=<?php echo $s_slug; ?>&city=<?php echo $c_slug; ?>" class="text-decoration-none text-dark d-flex justify-content-between align-items-center">
-                                <?php echo ucfirst($c_slug); ?>
-                                <span class="badge bg-light text-muted fw-normal rounded-pill">Top Rated</span>
-                            </a>
-                        </li>
-                        <?php endforeach; ?>
-                    </ul>
-                </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <ul class="list-unstyled">
+                    <?php foreach($col_cities as $city): 
+                        $city_slug = strtolower(str_replace(' ', '-', $city));
+                    ?>
+                    <li class="mb-2">
+                        <a href="locations/<?php echo $city_slug; ?>" class="text-muted hover-primary transition-all small d-block py-1" style="font-size: 0.75rem; letter-spacing: 0.1px; line-height: 1.2;">
+                            <span class="text-primary fw-bold" style="font-size: 0.65rem;">HUB:</span> <?php echo $city; ?>
+                        </a>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
             </div>
             <?php endforeach; ?>
         </div>

@@ -36,8 +36,14 @@ Instead of thin blog posts, we are building 3,000-word "Masterclass" pages for e
 ## 📅 Roadmap: Week 1 Expansion
 - [x] Create Master Template (`topics/diet-plans.php`)
 - [x] Implement Global Lead Modal in `footer.php`
+- [x] Seed **Weight Management Bundle** (3 Posts)
+- [ ] Roll out **Nutrition & Diet Bundle** (3 Posts - Scientific Focus)
+- [ ] Roll out **Fitness & Workouts Bundle** (3 Posts - Functional Focus)
+- [ ] Roll out **Mental Wellness Bundle** (3 Posts - Vedic/Modern Focus)
+- [ ] Roll out **Ayurveda Bundle** (3 Posts - Ritual/Science Focus)
 - [ ] Roll out **Weight Loss Masterclass** (Crimson Theme)
 - [ ] Roll out **Home Workout Blueprint** (Green Theme)
+- [x] Dynamic `sitemap.xml` implementation.
 - [ ] Connect Local SEO pages (`service-city.php`) to these pillars.
 
 ---

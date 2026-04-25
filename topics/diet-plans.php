@@ -506,11 +506,11 @@ $theme_bg_soft = "#f0f7ff";
                         <div class="row align-items-center">
                             <div class="col-lg-8">
                                 <h3 class="text-white fw-bold mb-3">Ready for a Personalized Science-Based Plan?</h3>
-                                <p class="mb-4">Join our Elite Nutrition Program where we use your unique biomarkers to design a pinpoint-perfect diet chart. No guesswork, just results.</p>
+                                <p class="text-white mb-4 opacity-90">Join our Elite Nutrition Program where we use your unique biomarkers to design a pinpoint-perfect diet chart. No guesswork, just results.</p>
                             <a href="<?php echo SITE_URL; ?>find-services" class="btn btn-white-premium" data-bs-toggle="modal" data-bs-target="#leadModal">Consult a Clinical Dietitian</a>
                             </div>
                             <div class="col-lg-4 d-none d-lg-block text-center">
-                                <i class="fas fa-stethoscope fa-8x opacity-20"></i>
+                                <i class="fas fa-stethoscope fa-8x opacity-20 text-white"></i>
                             </div>
                         </div>
                     </div>

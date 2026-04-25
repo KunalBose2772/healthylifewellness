@@ -14,6 +14,24 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^([^\.]+)$ $1.php [NC,L,QSA]
 
+# Post-specific rewrite (if needed for /post/slug format)
+RewriteRule ^post/([^/]+)$ post.php?slug=$1 [L,QSA]
+
+# Sitemap
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+# City Hub Architecture
+RewriteRule ^locations/([a-z-]+)$ location-hub.php?city=$1 [L,QSA]
+
+# pSEO Diet Plan in City
+RewriteRule ^topics/diet-plan-in-([a-z-]+)$ topics/diet-plan-location.php?city=$1 [L,QSA]
+
+# pSEO Home Workouts in City
+RewriteRule ^topics/home-workout-in-([a-z-]+)$ topics/home-workout-location.php?city=$1 [L,QSA]
+
+# pSEO Mental Wellness in City
+RewriteRule ^topics/mental-wellness-in-([a-z-]+)$ topics/mental-wellness-location.php?city=$1 [L,QSA]
+
 # 4. Handle Topics folder cleanly
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
