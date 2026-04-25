@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteBase /health/
+
+# 1. Redirect /index.php to /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /health/index\.php\ HTTP/
+RewriteRule ^index\.php$ /health/ [R=301,L]
+
+# 2. Redirect from .php to clean URL (Internal Redirect)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /health/([^\ ]+)\.php
+RewriteRule ^([^\ ]+)\.php$ $1 [L,R=301]
+
+# 3. Rewrite clean URL to .php internally
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L,QSA]
+
+# 4. Handle Topics folder cleanly
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^topics/([a-zA-Z0-9_-]+)$ topics/$1.php [NC,L,QSA]
+
+# Custom Error 404
+ErrorDocument 404 /health/index.php
